@@ -2,16 +2,16 @@
 
 const Auth = () => {
   return (
-    <main className={classes.auth}>
+    <main className="auth">
       <section>
         <form>
-          <div className={classes.control}>
-            <label htmlFor='email'>Email</label>
-            <input type='email' id='email' />
+          <div className="control">
+            <label htmlFor="email">Email</label>
+            <input type="email" id="email" />
           </div>
-          <div className={classes.control}>
-            <label htmlFor='password'>Password</label>
-            <input type='password' id='password' />
+          <div className="control">
+            <label htmlFor="password">Password</label>
+            <input type="password" id="password" />
           </div>
           <button>Login</button>
         </form>
